@@ -1,0 +1,38 @@
+khi em xem ảnh và phát hiện hint là một username m1ssgr4ndvi3tnam
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/dd8ee5b8-84a1-4f4c-9171-e0c66194bf72)
+và em tìm username này phát hiện ra 2 tài khoản trên X (twitter và Printerest)
+em tìm trên X và phát hiện đc ảnh bìa có nội dung có thể là passwword
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/0a445948-12bc-4fd4-b0b8-05deb4b975b5)
+
+em qua check bên printerest thì có một post :
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/370f24e8-8aec-43c1-ba45-046e58b3b2e1)
+và em xem cmt có cmt đã xóa lời cmt đó
+em check lại để xác nhận xem thì cmt đó đã được xóa. Có lẽ ta sẽ phải đi hướng khác.
+
+em dùng lookup username để tìm thì trên github có một tài khoản là Y3n Nhi3n.
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/c75d424f-9763-40d7-b2ba-b90cc3c8ecf9)
+
+khi check commit về Edit Playlist em thấy có một dòng khác biệt với các dòng còn lại là dòng 157
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/5f92ed5e-b44f-49ee-9ed1-3e9afaeddd9c)
+em thử truy cập vào đó k được nên em cắt từng phần để truy cập một thì đến phần m1ssgr4ndvietnam thì em tìm được một web là Report Overview
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/68f80041-564c-4ff2-844c-9b9c40e937a2)
+
+em surch m1ssgr4ndvietnam và có 2 url
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/3aa6d0ca-1a97-48d4-a3ea-59b38b44e396)
+em xem url đầu tiên và thấy contact mail nên em qua mail tìm kiếm tài khoản liên quan đến họ.
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/d563fe8e-a045-43b4-b9b0-1e651c980f1f)
+ khi qua mail thì em thật sự tìm được một user có mail là :  m1ssgr4ndvi3tnam@gmail.com
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/46f354c3-1f1f-48b5-afad-2ae1c768ffcb)
+
+em gửi nội dung để nhận phản hồi thì có một đoạn text khá nhiều kí tự là "twrLwcA!J0}bH0*b2C0"
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/9c3ac15c-f6d2-4fe7-8544-49dcda696ae2)
+
+em dùng cipher identifier để mã hóa dòng chữ đó. và em tìm được loại mã hóa của nó là rot47 với flag đầu tiên
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/04c535b5-8b82-42ea-8d30-03a8b21d6144)
+
+em truy cập đường link vào discord .Ở đây, em tương tác với bot Miss Grand để tìm kiếm hint
+và khi chơi game thắng em có nhaanja được một text :tblhy://nwj.baclmhv.cbp/iilun?m=Fdr-hhH8sif 
+![image](https://github.com/Ahitriko/OSINT/assets/151734752/89ee7b3d-c396-4ef8-bce0-4bc9863f9471)
+
+
+
